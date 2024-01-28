@@ -1,0 +1,627 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+
+.header-s-m {
+    display: flex;
+    justify-content: center;
+    max-width: 1025px;
+    height: 130px;
+    background-color: #2E334C;
+}
+
+.header-l {
+    display: none;
+    min-width: 1025px;
+    height: 100px;
+    background-color: #2E334C;
+    justify-content: space-between;
+}
+    
+.header-s-m img {
+    height: 130px;
+    width: 280px;
+}
+
+.slogan-s-m {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;  
+    font-weight: lighter;
+    column-gap: 10px;
+    letter-spacing: 3px;
+}
+    
+.slogan-s-m img {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.slogan-l {
+    display: none;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    column-gap: 30px;
+    letter-spacing: 3px;
+}
+    
+.slogan-l img {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.men-women {
+    cursor: pointer;
+}
+
+.men-women-img {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: -22px;
+}
+
+.men-women-b {
+    width: 90%;
+    height: 40px;
+    background-color: #D04D4D;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: lighter;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.men-women-b:hover {
+    color: #E79797;
+}
+
+.women-box {
+    margin-bottom: 30px;
+}
+
+.men-women-l {
+    display: none;
+}
+
+.nav-s-m {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.nav-s-m img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-text {
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -15px;
+}
+
+.shipping-l {
+    display: none;
+}
+
+.shipping-s-m {
+    margin-top: 50px;
+}
+
+.shipping-icons {
+    height: 45px;
+    width: 45px;
+    padding-left: 46%;
+}
+
+.shipping-text {
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.lec2023 {
+    display: flex;
+    justify-content: center;
+}
+  
+.lec23-b {
+    list-style: none;
+    background-color: #D04D4D;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 5px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+  
+.lec23-b:hover {
+    color: #E79797;
+}
+
+.le2023-text-box {
+    display: flex;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -80px;
+}
+
+.limited-edition-text-l {
+    display: none;
+}
+
+.main-products-l {
+    display: none;
+}
+
+.main-products-s-m-1 {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+}
+  
+.jackets-s-m {
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #bababa;
+}
+  
+.jackets-s-m img {
+    width: 190px;
+    height: 220px;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px; 
+}
+
+.prices {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-products-s-m-2 {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-s-m {
+    max-width: 1025px;
+    background-color: #2E334C;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.footer-l {
+    display: none;
+}
+
+.contact-head-s-m {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.contact-s-m {
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.footer-logo-s-m {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.socials-s-m {
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.socials-s-m-2 {
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.socials-s-m img {
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+@media screen and (min-width: 1026px) {
+.header-s-m {
+    display: none;
+}
+
+.header-l {
+    display: flex;
+}
+
+.header-l-logo {
+    width: fit-content;
+    height: 100%;
+    display: flex; 
+    padding-left: 30px;
+}
+    
+.header-l-logo img {
+    height: 100px;
+    align-self: center;
+}
+    
+.header-nav {
+    width: 800px;
+    height: 100%;
+    justify-content: center;
+    margin-top: -10px;
+}
+    
+.header-nav ul {
+    list-style: none;
+}
+    
+.header-nav ul li {
+    display: inline-flex;
+}
+    
+.header-nav ul li a {
+    padding: 20px;
+    font-weight: lighter;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+    
+.header-nav ul li a:hover {
+    text-decoration: underline;
+}
+    
+.header-cart {
+    width: 90px;
+}
+        
+.header-cart img {
+    height: 60px;
+    float: left;
+    padding-top: 20px;
+}
+
+.men-women {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.men-women-img {
+    width: 90%;
+    height: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 25px;
+}
+
+.men-women-b {
+    width: 90%;
+    height: 40px;
+    font-size: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.women-box {
+    margin-bottom: 0px;
+}
+
+.shipping-s-m {
+    display: none;
+}
+
+.shipping-l {
+    display: flex;
+    margin-top: -40px;
+}
+
+.shipping-icons-l {
+    height: 45px;
+    width: 45px;
+    padding-right: 15px;
+    padding-top: 2%;
+}
+
+.shipping-text-l {
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 1%;
+}
+
+.fast {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.free {
+    display: flex;
+    justify-content: center;
+}
+
+.easy {
+    display: flex;
+    justify-content: center;
+}
+
+.warranty {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lec23-b {
+    font-size: 20px;
+    height: 55px;
+    width: 100%;
+    font-weight: lighter;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.limited-edition-text {
+    display: none;
+}
+
+.limited-edition-text-l {
+    display: flex;
+}
+
+.le2023-text-box-l {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-top: 0px;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.main-products-s-m-1 {
+    display: none;
+}
+
+.main-products-s-m-2 {
+    display: none;
+}
+
+.main-products-l {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.jackets-l {
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #bababa;
+}
+  
+.jackets-l img {
+    width: 190px;
+    height: 220px;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px; 
+}
+
+.prices {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.slogan-l {
+    display: flex;
+    margin-top: 5%;
+}
+
+.slogan-s-m {
+    display: none;
+}
+
+.nav-s-m {
+    display: none;
+}
+
+.footer-s-m {
+    display: none;
+}
+
+.footer-l {
+    display: flex;
+    color: white;
+}
+
+.contact-l {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+    
+.contact-head-l {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+    
+.adress-l {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+    
+.phone-l {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+    
+.mail-l {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+    
+.socials-l {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 50px;
+    text-align: center;
+}
+    
+.socials-l-1 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+    
+.socials-l-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    letter-spacing: 1px;
+}
+    
+.socials-l-3 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+    
+.socials-l img {
+    height: 50px;
+    width: 50px;
+}
+    
+.footer-logo-l {
+    padding-top: 50px;
+}
+    
+.footer-logo-l img {
+    height: 200px;
+    width: 450px;
+    float: right;
+}
+
+}
+
+@media screen and (min-width: 1520px) {
+    
+.main-products-l {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.le2023-text-box-l {
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+}
+
+@media screen and (min-width: 700px) {
+
+.men-women-b {
+    height: 50px;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.men-women-img {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: -22px;
+}
+
+.le2023-text-box {
+    display: flex;
+    font-size: 20px;
+    width: 70%;
+}
+
+}
